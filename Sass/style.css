@@ -1,0 +1,505 @@
+.header-section {
+  width: 100%;
+}
+.header-section .cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(234, 238, 241);
+}
+.header-section .cont .roll1 {
+  padding: 5px 165px 30px 106px;
+}
+.header-section .cont .roll2 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  padding: 20px 124px 30px 0px;
+}
+.header-section .cont .roll2 nav ul {
+  display: flex;
+  gap: 80px;
+}
+.header-section .cont .roll2 nav ul li {
+  list-style: none;
+}
+.header-section .cont .roll2 nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  font-weight: 500;
+}
+.header-section .cont .roll3 {
+  padding: 5px 120px 22px 0px;
+  justify-content: space-between;
+}
+.header-section .cont .roll3 > a {
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 25px;
+  color: rgb(27, 145, 27);
+  text-decoration: none;
+}
+.header-section .cont .roll3 button {
+  padding: 8px 18px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(52, 226, 52);
+  color: #fff;
+}
+
+.hero-section {
+  width: 100%;
+}
+.hero-section .cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(234, 238, 241);
+}
+.hero-section .cont .cell1 {
+  padding: 151px 104px 162px 144px;
+}
+.hero-section .cont .cell1 h1 {
+  font-size: 74px;
+  font-weight: 600;
+  color: rgb(73, 69, 69);
+}
+.hero-section .cont .cell1 h1 span {
+  color: rgb(9, 201, 25);
+}
+.hero-section .cont .cell1 p {
+  font-size: 16px;
+  color: rgb(107, 107, 103);
+  padding: 16px 0px 32px 0px;
+}
+.hero-section .cont .cell1 button {
+  padding: 14px 32px;
+  border: none;
+  background-color: rgb(9, 201, 25);
+  border-radius: 5px;
+}
+.hero-section .cont .cell1 button a {
+  text-decoration: none;
+  color: #fff;
+}
+.hero-section .cont .cell2 {
+  padding: 96px 244px 96px 104px;
+}
+.hero-section .cont .cell2 img {
+  width: 581px;
+  height: 607px;
+}
+
+.about-section {
+  width: 100%;
+  margin-top: 40px;
+}
+.about-section .cont .roll1 {
+  text-align: center;
+  justify-content: center;
+}
+.about-section .cont .roll1 h1 {
+  font-size: 36px;
+}
+.about-section .cont .roll1 p {
+  color: #524c4c;
+}
+.about-section .cont .roll2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 144px 0px 144px;
+}
+
+.manage-section {
+  width: 100%;
+  margin-top: 60px;
+}
+.manage-section .cont .roll-head {
+  text-align: center;
+  justify-content: center;
+}
+.manage-section .cont .roll-head h1 {
+  padding: 0px 449px 3px 449px;
+}
+.manage-section .cont .roll-head p {
+  font-size: 16px;
+}
+.manage-section .cont .roll2 {
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+.manage-section .cont .roll2 .cell1 {
+  padding: 10px 126px 10px 170px;
+}
+.manage-section .cont .roll2 .cell1 h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+.manage-section .cont .roll2 .cell1 p {
+  font-size: 16px;
+  color: #524c4c;
+}
+.manage-section .cont .roll2 .cell2 {
+  padding: 10px 127px 10px 0px;
+}
+.manage-section .cont .roll2 .cell2 h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+.manage-section .cont .roll2 .cell2 p {
+  font-size: 16px;
+  color: #524c4c;
+}
+.manage-section .cont .roll2 .cell3 {
+  padding: 10px 170px 10px 0px;
+}
+.manage-section .cont .roll2 .cell3 h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+.manage-section .cont .roll2 .cell3 p {
+  font-size: 16px;
+  color: #524c4c;
+}
+
+.meddle-section {
+  width: 100%;
+  margin-top: 40px;
+}
+.meddle-section .cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.meddle-section .cont .imge {
+  padding: 0px 39px 0px 144px;
+}
+.meddle-section .cont .imge img {
+  width: 542px;
+  height: 633px;
+}
+.meddle-section .cont .word {
+  padding: 82.5px 294px 82.5px 0px;
+}
+.meddle-section .cont .word h1 {
+  font-size: 40px;
+}
+.meddle-section .cont .word p {
+  padding: 16px 0px 32px 0px;
+  color: #524c4c;
+}
+.meddle-section .cont .word button {
+  padding: 14px 32px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(39, 175, 39);
+}
+.meddle-section .cont .word button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.help-section {
+  width: 100%;
+  margin-top: 40px;
+}
+.help-section .cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f3f3f3;
+}
+.help-section .cont .head {
+  padding: 84px 82px 84px 164px;
+}
+.help-section .cont .head h1 {
+  font-size: 50px;
+  color: #524c4c;
+}
+.help-section .cont .head h1 span {
+  color: rgb(55, 211, 34);
+}
+.help-section .cont .head h1 p {
+  font-size: 70px;
+}
+.help-section .cont .scard {
+  padding: 64px 344px 64px 72px;
+}
+.help-section .cont .scard .one {
+  padding: 30px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.help-section .cont .scard .one .cell1 {
+  display: flex;
+  padding: 0px 100px 0px 0px;
+  gap: 20px;
+}
+.help-section .cont .scard .one .cell1 h5 {
+  color: #524c4c;
+  font-size: 28px;
+  font-weight: 700;
+}
+.help-section .cont .scard .one .cell1 img {
+  width: 48px;
+  height: 48px;
+}
+.help-section .cont .scard .one .cell2 {
+  display: flex;
+  padding: 0px 50px 0px 0px;
+  gap: 20px;
+}
+.help-section .cont .scard .one .cell2 h5 {
+  color: #524c4c;
+  font-size: 28px;
+  font-weight: 700;
+}
+.help-section .cont .scard .one .cell2 img {
+  width: 48px;
+  height: 48px;
+}
+.help-section .cont .scard .two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.help-section .cont .scard .two .cell1 {
+  display: flex;
+  padding: 0px 110px 0px 0px;
+  gap: 20px;
+}
+.help-section .cont .scard .two .cell1 h5 {
+  color: #524c4c;
+  font-size: 28px;
+  font-weight: 700;
+}
+.help-section .cont .scard .two .cell1 img {
+  width: 48px;
+  height: 48px;
+}
+.help-section .cont .scard .two .cell2 {
+  display: flex;
+  padding: 0px 20px 0px 0px;
+  gap: 20px;
+}
+.help-section .cont .scard .two .cell2 > div h5 {
+  color: #524c4c;
+  font-size: 28px;
+  font-weight: 700;
+}
+.help-section .cont .scard .two .cell2 img {
+  width: 48px;
+  height: 48px;
+}
+
+.design-section {
+  width: 100%;
+  margin-top: 40px;
+}
+.design-section .cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.design-section .cont .photo {
+  padding: 0px 54px 0px 170px;
+}
+.design-section .cont .photo img {
+  width: 565px;
+  height: 544px;
+}
+.design-section .cont .paragraph {
+  padding: 63px 324px 63px 0px;
+}
+.design-section .cont .paragraph p {
+  padding: 20px 0px 20px 0px;
+}
+.design-section .cont .paragraph button {
+  padding: 14px 32px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(39, 209, 39);
+}
+.design-section .cont .paragraph button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.tesla-section {
+  width: 100%;
+  margin-top: 60px;
+}
+.tesla-section .cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f3f3f3;
+}
+.tesla-section .cont .roll1 {
+  padding: 32px 72px 32px 164px;
+}
+.tesla-section .cont .roll1 img {
+  width: 426px;
+  height: 426px;
+}
+.tesla-section .cont .roll2 {
+  padding: 33px 344px 33px 0px;
+}
+.tesla-section .cont .roll2 .word p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #7c7676;
+}
+.tesla-section .cont .roll2 .word h4 {
+  color: rgb(32, 190, 32);
+  padding: 15px 0px;
+}
+.tesla-section .cont .roll2 .word .p1 {
+  font-size: 16px;
+  color: #948b8b;
+}
+.tesla-section .cont .roll2 .photo {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tesla-section .cont .roll2 .photo img {
+  padding-right: 20px;
+}
+.tesla-section .cont .roll2 .photo a {
+  text-decoration: none;
+  color: rgb(35, 206, 35);
+}
+
+.marketing-section {
+  width: 100%;
+  margin-top: 60px;
+}
+.marketing-section .heading {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.marketing-section .cadr-z {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.marketing-section .cadr-z .card {
+  text-align: center;
+  border: none;
+}
+.marketing-section .cadr-z .card .car {
+  padding: 20px;
+  margin-top: -50px;
+  border-radius: 8px;
+  background-color: #fff;
+  z-index: 1;
+  width: 317px;
+  position: relative;
+  box-shadow: 0px 2px 3px rgb(164, 164, 167);
+  margin-left: 23px;
+}
+.marketing-section .cadr-z .card .car a {
+  text-decoration: none;
+  color: rgb(37, 199, 37);
+}
+
+.testimonal-section {
+  width: 100%;
+  margin-top: 94px;
+}
+.testimonal-section .cont {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.testimonal-section .cont h1 {
+  font-size: 64px;
+  font-weight: 600;
+  padding: 0px 0px 20px 0px;
+}
+.testimonal-section .cont button {
+  padding: 14px 32px;
+  background-color: rgb(20, 138, 30);
+  border: none;
+  border-radius: 5px;
+}
+.testimonal-section .cont button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-section {
+  width: 100%;
+  margin-top: 40px;
+}
+.footer-section .cont {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(25, 36, 34);
+}
+.footer-section .cont .logo {
+  font-size: 14px;
+  padding: 64px 124px 75px 175px;
+}
+.footer-section .cont .logo img {
+  padding: 54px 0px 50px 0px;
+}
+.footer-section .cont .logo .ico {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-section .cont .link {
+  display: flex;
+  justify-content: center;
+  padding: 64px 165px 64px 125px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 200px;
+}
+.footer-section .cont .link .roll {
+  margin-bottom: 10px;
+}
+.footer-section .cont .link .roll h4 {
+  margin-bottom: 25px;
+}
+.footer-section .cont .link .roll li {
+  list-style: none;
+  margin: 0px 0px 15px 0px;
+  font-size: 14px;
+}
+.footer-section .cont .link .roll2 {
+  padding-bottom: 140px;
+}
+.footer-section .cont .link .roll2 h3 {
+  padding-bottom: 40px;
+}
+.footer-section .cont .link .roll2 > div .space {
+  width: 270px;
+  height: 40px;
+  border-radius: 7px;
+  background-color: #7c7676;
+}/*# sourceMappingURL=style.css.map */
